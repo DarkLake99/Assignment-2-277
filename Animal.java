@@ -13,9 +13,8 @@ public abstract class Animal implements Comparable<Object>,Storable, Talkable{
 	public int getKey() {
 		return orderKey;
 	}
-	public String getType() {
-		return getType();
-	}
+	public abstract String getType();
+	
 	//TODO
 	public String speaksBy() {
 		return speaksBy();
