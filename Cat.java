@@ -20,6 +20,19 @@ public class Cat extends Animal{
 	public String speaksBy() {
 		return "meowing";
 	}
+	
+	@Override
+	public void store()
+	{
+		System.out.println(toString() + " is being stored in first class");
+	}
+	
+	@Override
+	public void load()
+	{
+		System.out.println(toString()+ " being loaded into wooden box");
+	}
+	
 	@Override
 	public String toString() {
 		return super.toString() + ", color = " + color;
