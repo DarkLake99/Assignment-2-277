@@ -3,5 +3,6 @@
 //Britney Khuu 		ID: 018577765
 
 public interface Storable {
-
+	void store();
+	void load();
 }

@@ -20,6 +20,19 @@ public class Dog extends Animal {
 	public String speaksBy() {
 		return "barking";
 	}
+	
+	@Override
+	public void store()
+	{
+		System.out.println(toString() + " being stored in coach");
+	}
+	
+	@Override
+	public void load()
+	{
+		System.out.println(toString() + " being loaded from kennel");
+	}
+	
 	@Override
 	public String toString() {
 		return super.toString() + ", weight = " + weight;
