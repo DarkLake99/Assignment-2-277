@@ -15,10 +15,6 @@ public abstract class Animal implements Comparable<Object>,Storable, Talkable{
 	}
 	public abstract String getType();
 	
-	//TODO
-	public String speaksBy() {
-		return speaksBy();
-	}
 	@Override
 	public String toString() {
 		return "("+mName+","+orderKey+")";

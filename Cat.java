@@ -15,7 +15,6 @@ public class Cat extends Animal{
 	public String getType() {
 		return "Kitty";
 	}
-	//TODO
 	@Override
 	public String speaksBy() {
 		return "meowing";
