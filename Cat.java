@@ -38,7 +38,7 @@ public class Cat extends Animal{
 	}
 	@Override
 	public int compareTo(Object o) {
-		if(!(o instanceof Cat))return 0;
+		if(!(o instanceof Cat))return -1;
 		else {
 			Cat c = (Cat)o;
 			return c.getKey()-this.getKey();
